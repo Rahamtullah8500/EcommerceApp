@@ -1,0 +1,48 @@
+.ecom-contact-container {
+  width: 100%;
+  min-height: calc(100vh - 50px);
+}
+.ecom-contact-container .ecom-contact-bg-image {
+  background-image: url('../../images/contact.jpg');
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  filter: brightness(70%);
+}
+.ecom-contact-container .ecom-contact-heading {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  padding: 20px;
+}
+.ecom-contact-container .ecom-contact-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.ecom-contact-container .ecom-contact-body .ecom-contact-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 280px;
+}
+.ecom-contact-container .ecom-contact-body .ecom-contact-section .ecom-contact-section-main {
+  font-size: 18px;
+  font-weight: 700;
+}
+.ecom-contact-container .ecom-contact-body .ecom-contact-section .ecom-contact-section-sub {
+  font-size: 14px;
+  font-weight: 400;
+}
+.ecom-contact-container .ecom-contact-conclusion {
+  text-align: center;
+  padding: 20px 100px;
+}

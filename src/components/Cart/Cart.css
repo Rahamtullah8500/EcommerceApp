@@ -1,0 +1,339 @@
+.ecom-cart-container {
+  width: 100%;
+  min-height: calc(100vh - 50px);
+  padding: 20px 10px;
+}
+.ecom-cart-empty-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #f5f7f9;
+  height: calc(100vh - 50px);
+}
+.ecom-cart-empty-page .ecom-empty-cart-svg {
+  width: 35%;
+  min-width: 200px;
+}
+.ecom-cart-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 2px 4px #cdcdcd;
+}
+.ecom-cart-body .ecom-cart-products-list {
+  display: flex;
+  flex-direction: column;
+}
+.ecom-cart-body .ecom-cart-heading-container {
+  border-bottom: 1px solid #999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 10px;
+}
+.ecom-cart-body .ecom-cart-items-heading {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 10px;
+  width: 100%;
+  border-bottom: 1px solid #d7d7d7;
+}
+.ecom-cart-body .ecom-cart-items-heading .ecom-item-heading-product {
+  flex-grow: 1.5;
+}
+.ecom-cart-body .ecom-cart-items-heading .ecom-item-heading-quantity {
+  flex-grow: 1;
+}
+.ecom-cart-body .ecom-cart-items-heading .ecom-item-heading-price {
+  flex-grow: 0.7;
+}
+.ecom-cart-body .ecom-cart-items-heading .ecom-item-heading-total {
+  flex-grow: 0.5;
+  display: flex;
+  justify-content: center;
+}
+.ecom-cart-body .ecom-cart-summary-container {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  gap: 20px;
+  align-self: flex-start;
+  border-radius: 4px;
+  min-height: 200px;
+  padding: 0 10px;
+  background-color: #f5f7f9;
+  padding-bottom: 10px;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-price-details-container {
+  flex-grow: 1;
+  width: 45%;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-payment-details-container {
+  flex-grow: 1;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-summary-heading {
+  border-bottom: 1px solid #999999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  font-style: 14px;
+  font-weight: 700;
+  padding: 0 20px;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-summary-items-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 20px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-summary-items-list {
+  height: auto;
+  padding: 0 20px;
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px solid #d7d7d7;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-summary-items-list .ecom-cart-summary-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-summary-items-list .ecom-cart-summary-list-item .ecom-cart-summary-item-title {
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: calc(100% - 100px);
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-summary-items-list .ecom-cart-summary-list-item .ecom-cart-summary-item-price {
+  min-width: 40px;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-payment-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 40px;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-payment-section .ecom-cart-total-price {
+  font-size: 14px;
+  font-weight: 500;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-payment-section-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 40px;
+  border-top: 1px solid #777777;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-payment-section-total .ecom-cart-total-price {
+  font-size: 14px;
+  font-weight: 500;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-payment-section-total .ecom-cart-total-price-final {
+  font-weight: 700;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-payment-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 0px;
+  height: 80px;
+  width: 100%;
+}
+.ecom-cart-body .ecom-cart-summary-container .ecom-cart-payment-icons-container .ecom-cart-payment-icon {
+  width: 50px;
+  height: 50px;
+}
+.ecom-cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px ;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+  gap: 10px;
+}
+.ecom-cart-item:hover {
+  background-color: #f5f7f9;
+  box-shadow: 1px 2px 2px #cdcdcd;
+}
+.ecom-cart-item .ecom-cart-item-details {
+  display: flex;
+  gap: 10px;
+  flex-grow: 1;
+  max-width: 390px;
+  align-items: center;
+}
+.ecom-cart-item .ecom-cart-item-details .ecom-cart-item-image {
+  mix-blend-mode: multiply;
+}
+.ecom-cart-item .ecom-cart-item-details .ecom-cart-item-details-sub {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: flex-start;
+  width: 100px;
+  flex-grow: 1;
+}
+.ecom-cart-item .ecom-cart-item-details .ecom-cart-item-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  overflow: hidden;
+  margin-right: 20px;
+  max-width: fit-content;
+}
+.ecom-cart-item .ecom-cart-item-details .ecom-cart-item-category {
+  color: #777777;
+  font-size: 12px;
+  font-weight: 400;
+  width: fit-content;
+}
+.ecom-cart-item .ecom-cart-item-buttons {
+  display: flex;
+  flex-grow: 1;
+}
+.ecom-cart-item .ecom-cart-item-delete {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+}
+/* For devices with a minimum width of 320px and above */
+@media (min-width: 200px) {
+  .ecom-cart-products-list {
+    width: 100%;
+  }
+  .ecom-item-heading-quantity {
+    display: none;
+  }
+  .ecom-item-heading-price {
+    display: none;
+  }
+  .ecom-item-heading-total {
+    flex-grow: 0;
+  }
+  .ecom-cart-item-price {
+    font-weight: 600;
+    font-size: 12px;
+    flex-grow: 1;
+  }
+  .ecom-cart-item-price-total {
+    font-weight: 600;
+    font-size: 12px;
+    flex-grow: 1;
+    display: none;
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: center;
+  }
+  .ecom-cart-item-image {
+    width: 60px;
+    height: 60px;
+  }
+  .ecom-cart-item-buttons {
+    display: none !important;
+  }
+  .ecom-cart-item-price {
+    display: none;
+  }
+  .ecom-cart-item-details {
+    flex-grow: 1;
+  }
+}
+/* For devices with a minimum width of 480px and above */
+@media (min-width: 480px) {
+  .ecom-cart-products-list {
+    width: 100%;
+  }
+  .ecom-cart-quantity {
+    display: none;
+  }
+}
+/* For devices with a minimum width of 768px and above */
+@media (min-width: 768px) {
+  .ecom-cart-products-list {
+    width: 100%;
+  }
+  .ecom-item-heading-total {
+    flex-grow: 1;
+  }
+  .ecom-cart-item-image {
+    width: 100px;
+    height: 100px;
+  }
+  .ecom-item-heading-quantity {
+    display: block;
+    flex-grow: 1;
+  }
+  .ecom-cart-item-buttons {
+    display: block !important;
+  }
+  .ecom-cart-item-price {
+    font-weight: 600;
+    font-size: 14px;
+    flex-grow: 1;
+  }
+  .ecom-cart-item-price-total {
+    font-weight: 600;
+    font-size: 14px;
+    flex-grow: 1;
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: center;
+  }
+}
+/* For devices with a minimum width of 1024px and above */
+@media (min-width: 1024px) {
+  .ecom-cart-products-list {
+    width: 100%;
+  }
+  .ecom-cart-summary-container {
+    width: 20%;
+    display: flex;
+  }
+  .ecom-item-heading-price {
+    display: block;
+  }
+  .ecom-cart-item-price {
+    display: block;
+  }
+}
+/* For devices with a minimum width of 1280px and above */
+@media (min-width: 1280px) {
+  .ecom-cart-products-list {
+    width: 70%;
+  }
+  .ecom-cart-summary-container {
+    width: 20%;
+  }
+}
+/* For devices with a minimum width of 1440px and above */
+@media (min-width: 1440px) {
+  .ecom-cart-products-list {
+    width: 70%;
+  }
+  .ecom-cart-summary-container {
+    width: 20%;
+  }
+}

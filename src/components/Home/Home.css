@@ -1,0 +1,30 @@
+.cart-purple-image .curosel-image {
+  object-fit: cover;
+  height: calc(100vh - 50px);
+  width: 100%;
+  filter: brightness(0.6);
+}
+.ecom-home-page-loading {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-color: #f5f7f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-purple-image-title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+  color: #ffffff;
+}
+.cart-purple-image-title-container .cart-purple-image-title-main {
+  font-size: 5rem;
+  font-weight: 700;
+  width: 50vw;
+}
+.cart-purple-image-title-container .cart-purple-image-title-sub {
+  font-size: 24px;
+  font-weight: 400;
+}

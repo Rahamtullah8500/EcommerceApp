@@ -1,0 +1,12 @@
+.ecom-footer-body {
+  background-color: #333333;
+}
+.ecom-footer-body .ecom-footer-container .ecom-footer-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  color: lightgray;
+}
+.ecom-footer-body .ecom-footer-container .ecom-footer-list-item:hover {
+  cursor: pointer;
+  color: plum;
+}
