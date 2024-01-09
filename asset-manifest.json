@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/EcommerceApp/static/css/main.28df17a3.css",
+    "main.js": "/EcommerceApp/static/js/main.22895987.js",
+    "static/media/about.jpg": "/EcommerceApp/static/media/about.1f756ab735b290db2377.jpg",
+    "static/media/contact.jpg": "/EcommerceApp/static/media/contact.306715b7ef2bd8e48bf4.jpg",
+    "static/media/shopping4.jpg": "/EcommerceApp/static/media/shopping4.29f40c9c09da09b6ca5c.jpg",
+    "static/media/shopping3.jpeg": "/EcommerceApp/static/media/shopping3.75baa1a3cc8e60768e9e.jpeg",
+    "static/media/shopping2.webp": "/EcommerceApp/static/media/shopping2.19bb241095e3b461be95.webp",
+    "static/media/emptyCart.svg": "/EcommerceApp/static/media/emptyCart.001e2e3cf2ad4080d54ba3282de88fd2.svg",
+    "static/media/Group.svg": "/EcommerceApp/static/media/Group.4cc8bd5100f1ccbfa0b15ad24c06a998.svg",
+    "static/media/mastercardIcon.svg": "/EcommerceApp/static/media/mastercardIcon.1651256b7c2a0e27fbcb450096b6fe2e.svg",
+    "static/media/upiIcon.svg": "/EcommerceApp/static/media/upiIcon.541a4d6940f9f3119819d2082c246bbc.svg",
+    "static/media/visaIcon.svg": "/EcommerceApp/static/media/visaIcon.73f1ae9330e08d67b16f4912c7bf877b.svg",
+    "static/media/paypalIcon.svg": "/EcommerceApp/static/media/paypalIcon.eae7ca87c3e0290f1d5ddbe61e456eab.svg",
+    "index.html": "/EcommerceApp/index.html",
+    "main.28df17a3.css.map": "/EcommerceApp/static/css/main.28df17a3.css.map",
+    "main.22895987.js.map": "/EcommerceApp/static/js/main.22895987.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28df17a3.css",
+    "static/js/main.22895987.js"
+  ]
+}
