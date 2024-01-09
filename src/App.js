@@ -20,6 +20,7 @@ function App() {
       <Header/>
       <Routes>
           <Route exact path='/' element={<Home/>} />
+          <Route path='/EcommerceApp' element={<Home/>}/>
           <Route exact path='/product' element={<ProductsList/>} />
           <Route path='/product/:productId' element={<ProductDetails/>}/>
           <Route path='/product/product/:productId' element={<ProductDetails/>}/>
