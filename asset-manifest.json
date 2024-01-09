@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EcommerceApp/static/css/main.28df17a3.css",
-    "main.js": "/EcommerceApp/static/js/main.22895987.js",
+    "main.js": "/EcommerceApp/static/js/main.1b27d35d.js",
     "static/media/about.jpg": "/EcommerceApp/static/media/about.1f756ab735b290db2377.jpg",
     "static/media/contact.jpg": "/EcommerceApp/static/media/contact.306715b7ef2bd8e48bf4.jpg",
     "static/media/shopping4.jpg": "/EcommerceApp/static/media/shopping4.29f40c9c09da09b6ca5c.jpg",
@@ -15,10 +15,10 @@
     "static/media/paypalIcon.svg": "/EcommerceApp/static/media/paypalIcon.eae7ca87c3e0290f1d5ddbe61e456eab.svg",
     "index.html": "/EcommerceApp/index.html",
     "main.28df17a3.css.map": "/EcommerceApp/static/css/main.28df17a3.css.map",
-    "main.22895987.js.map": "/EcommerceApp/static/js/main.22895987.js.map"
+    "main.1b27d35d.js.map": "/EcommerceApp/static/js/main.1b27d35d.js.map"
   },
   "entrypoints": [
     "static/css/main.28df17a3.css",
-    "static/js/main.22895987.js"
+    "static/js/main.1b27d35d.js"
   ]
 }
